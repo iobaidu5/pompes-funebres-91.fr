@@ -5,7 +5,7 @@ $(document).ready(function () {
       .addClass("active");
   });
   
-  const nav = document.querySelector(".Navbar");
+  const nav = document.querySelector(".fixedNav");
   const form = document.querySelector(".to-fixed");
   window.addEventListener("scroll", fixNav);
   // window.addEventListener("scroll", fixForm);
@@ -13,6 +13,7 @@ $(document).ready(function () {
   function fixNav() {
     if (window.scrollY > nav.offsetHeight + 150) {
       nav.classList.add("navbar-active");
+
      nav.removeAttribute('clip-path');
     } else {
       nav.classList.remove("navbar-active");

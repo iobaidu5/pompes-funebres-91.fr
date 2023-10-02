@@ -48,4 +48,7 @@
 <url>
 <loc>http://localhost:4000/urgences-deces</loc>
 </url>
+<url>
+<loc>http://localhost:4000/zones-d-interventions</loc>
+</url>
 </urlset>

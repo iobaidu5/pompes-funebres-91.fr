@@ -52,8 +52,7 @@
     <nav class="navbar Navbar_main navbar-expand-lg fixedNav">
         <div class="container-fluid">
             <div class="Navbar_image">
-                <a href="./index.html" title="Accueil"><img loading="lazy" src="./assets/img/logo.png"
-                        class="Navbar_image-img" alt="pompes-funebres-9" /></a>
+                <a href="./index.html" class="link" title="Accueil"><p class="logo-title">POMPES FUNÈBRES 91</p></a>
             </div>
             <button class="navbar-toggler Navbar_toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,15 +64,14 @@
                         <a class="nav-link Navbar_nav-link" title="Accueil" href="./index.html"> Accueil</a>
                     </li>
                     <li class="nav-item dropdown Navbar_nav-item">
-                        <a class="nav-link Navbar_nav-link dropdown-toggle  d-flex align-items-center"
-                            href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false">Les services
-                        </a>
-                        <div class="dropdown-menu bg-black" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item Navbar_nav-link text-white" title="urgences-deces" href="./urgences-deces.html">Urgences décès</a>
-                            <a class="dropdown-item Navbar_nav-link text-white" title="emarches-administratives" href="./demarches-administratives.html">Démarches administratives</a>
-                            <a class="dropdown-item Navbar_nav-link text-white" title="obseques" href="./obseques.html">Obsèques</a>
-                            <a class="dropdown-item Navbar_nav-link text-white" title="entretien-sepulture" href="./entretien-sepulture.html">Entretien sépulture</a>
+                        <a class="nav-link Navbar_nav-link dropdown-toggle text-white" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Les services
+                          </a>
+                        <div class="dropdown-menu bg-black mt-2" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item Navbar_nav-link text-white py-2" title="urgences-deces" href="./urgences-deces.html">Urgences décès</a>
+                            <a class="dropdown-item Navbar_nav-link text-white py-2" title="emarches-administratives" href="./demarches-administratives.html">Démarches administratives</a>
+                            <a class="dropdown-item Navbar_nav-link text-white py-2" title="obseques" href="./obseques.html">Obsèques</a>
+                            <a class="dropdown-item Navbar_nav-link text-white py-2" title="entretien-sepulture" href="./entretien-sepulture.html">Entretien sépulture</a>
                         </div>
                     </li>
                     <li class="nav-item Navbar_nav-item ">
@@ -83,10 +81,6 @@
                     <li class="nav-item Navbar_nav-item">
                         <a class="nav-link Navbar_nav-link" title="Prévoyances obsèques" href="./prevoyances-obseques.html">
                             Prévoyances obsèques </a>
-                    </li>
-                    <li class="nav-item Navbar_nav-item">
-                        <a class="nav-link Navbar_nav-link" title="avis-de-deces" href="./avis-de-deces.html">
-                            Avis de décès</a>
                     </li>
                     <li class="nav-item Navbar_nav-item">
                         <a class="nav-link Navbar_nav-link" title="contact" href="./contact.html">
@@ -119,7 +113,7 @@
                     <p class="slider_content-p">Honorons la mémoire</p>
                     <h1 class="slider_content-title">Bienvenue chez Pompes Funèbres 91</h1>
                     <div class="d-flex justify-content-center v-none">
-                        <a href="" title="more" class="slider_content-link">Learn More</a>
+                        <a href="" title="more" class="slider_content-link">En savoir plus</a>
                     </div>
                 </div>
             </div>
@@ -128,9 +122,9 @@
             <div class="slider_content">
                 <div class="container">
                     <p class="slider_content-p">Planification sereine</p>
-                    <h1 class="slider_content-title">Anticipez l'avenir avec nos solutions de prévoyance obsèques</h1>
+                    <h2 class="slider_content-title">Anticipez l'avenir avec nos solutions de prévoyance obsèques</h2>
                     <div class="d-flex justify-content-center">
-                        <a href="./prevoyances-obseques.html" title="prevoyances-obseques" class="slider_content-link">Learn More</a>
+                        <a href="./prevoyances-obseques.html" title="prevoyances-obseques" class="slider_content-link">En savoir plus</a>
                     </div>
                 </div>
             </div>
@@ -139,9 +133,9 @@
             <div class="slider_content">
                 <div class="container">
                     <p class="slider_content-p">Personnalisation émouvante</p>
-                    <h1 class="slider_content-title">Chaque vie mérite une cérémonie unique.</h1>
+                    <h2 class="slider_content-title">Chaque vie mérite une cérémonie unique.</h2>
                     <div class="d-flex justify-content-center">
-                        <a href="./obseques.html" title="obseques" class="slider_content-link">Learn More</a>
+                        <a href="./obseques.html" title="obseques" class="slider_content-link">En savoir plus</a>
                     </div>
                 </div>
             </div>
@@ -156,23 +150,19 @@
         <div class="row align-items-center">
             <div class="col-md-5">
                 <div class="menu_content">
-                    <!-- <p class="menu_content-header">WHAT DO I OFFER</p> -->
                     <h2 class="menu_content-title">Pompes funèbres 91</h2>
                     <p class="menu_content-p">Votre partenaire dévoué pour des adieux empreints de dignité et de
                         compassion dans le département 91. Nous comprenons la profondeur des émotions qui accompagnent
                         la perte d'un être cher, et c'est pourquoi nous nous engageons à offrir un soutien chaleureux et
                         professionnel à chaque étape du chemin.</p>
                     <div class="row align-items-center">
-                        <!-- <div class="col-md-6">
-                            <a href="" class="slider_content-link">Check Service</a>
-                        </div> -->
                         <div class="col-md-6">
                             <div class="d-flex align-items-center">
                                 <div class="menu_content-icon">
                                     <i class="fas fa-phone-alt"></i>
                                 </div>
                                 <a href="tel:01 02 03 04 05" title="01 02 03 04 05"
-                                    class="menu_content-header">01 02 03 04 05</a>
+                                    class="menu_content-header no-wrap">01 02 03 04 05</a>
                             </div>
                         </div>
                     </div>
@@ -192,47 +182,54 @@
 <section class="services mt-5">
     <div class="container-fluid">
         <div class="menu_content">
-            <p class="menu_content-header text-center">WHAT WE OFFER</p>
             <h2 class="menu_content-title text-center">Des services compréhensifs
             </h2>
-            <p class="menu_content-p">Nous offrons une gamme complète de services funéraires dans le département 91,
+            <p class="menu_content-p text-center">Nous offrons une gamme complète de services funéraires dans le département 91,
                 conçus pour répondre à vos besoins individuels et aux dernières volontés de votre être cher. De la prise
                 en charge respectueuse du défunt à l'organisation de cérémonies mémorables, nous sommes là pour vous
                 offrir des solutions adaptées à vos valeurs et vos préférences.</p>
         </div>
         <div class="row">
             <div class="col-lg-3 col-md-6 my-4">
-                <div class="menu_card h-100">
-                    <div class="menu_card-icon"></div>
-                    <h3 class="menu_card-title mb-1">Urgences décès
-                    </h3>
-                    <p class="menu_card-p text-center">The largest archive in 2021</p>
-                    <div class="menu_card-bottom"><i class="fas fa-ellipsis-h"></i></div>
-                </div>
+                <a href="./urgences-deces.html" class="link">
+                    <div class="menu_card h-100">
+                        <div class="menu_card-icon"><img src="./assets/img/angel.png" alt="" class="menu_card-icon--img"></div>
+                        <h3 class="menu_card-title mb-1">Urgences décès
+                        </h3>
+                        <p class="menu_card-p text-center">The largest archive in 2021</p>
+                        <div class="menu_card-bottom"><i class="fas fa-ellipsis-h"></i></div>
+                    </div>
+                </a>
             </div>
             <div class="col-lg-3 col-md-6 my-4">
+                <a href="./demarches-administratives.html" class="link">
                 <div class="menu_card h-100">
-                    <div class="menu_card-icon"></div>
+                    <div class="menu_card-icon"><img src="./assets/img/urn.png" alt="" class="menu_card-icon--img"></div>
                     <h3 class="menu_card-title mb-1">Démarches administratives</h3>
                     <p class="menu_card-p text-center">Therapy for kids & adults</p>
                     <div class="menu_card-bottom"><i class="fas fa-ellipsis-h"></i></div>
                 </div>
+                </a>
             </div>
             <div class="col-lg-3 col-md-6 my-4">
+                <a href="./obseques.html" class="link">
                 <div class="menu_card h-100">
-                    <div class="menu_card-icon"></div>
+                    <div class="menu_card-icon"><img src="./assets/img/candles.png" alt="" class="menu_card-icon--img"></div>
                     <h3 class="menu_card-title mb-1">Obsèques</h3>
                     <p class="menu_card-p text-center">Full ceremony organization</p>
                     <div class="menu_card-bottom"><i class="fas fa-ellipsis-h"></i></div>
                 </div>
+                </a>
             </div>
             <div class="col-lg-3 col-md-6 my-4">
+                <a href="./entretien-sepulture.html" class="link">
                 <div class="menu_card h-100">
-                    <div class="menu_card-icon"></div>
+                    <div class="menu_card-icon"><img src="./assets/img/headstone.png" alt="" class="menu_card-icon--img"></div>
                     <h3 class="menu_card-title mb-1">Entretien sépulture</h3>
                     <p class="menu_card-p text-center">All funeral arrangements</p>
                     <div class="menu_card-bottom"><i class="fas fa-ellipsis-h"></i></div>
                 </div>
+                </a>
             </div>
         </div>
         <!-- <div class="d-flex justify-content-center mt-5">
@@ -266,7 +263,7 @@
             <!-- <p class="menu_content-header text-center">OUR SHOP</p> -->
             <h2 class="menu_content-title text-center">Sélection de produits funéraires
             </h2>
-            <p class="menu_content-p">Découvrez notre gamme de produits dédiés aux adieux respectueux et personnalisés
+            <p class="menu_content-p text-center">Découvrez notre gamme de produits dédiés aux adieux respectueux et personnalisés
                 chez Pompes Funèbres 91. Notre marbrerie crée des monuments durables qui honorent la mémoire. Nos
                 cercueils offrent une variété de styles, du traditionnel au contemporain. Les urnes élégantes permettent
                 de garder les souvenirs près du cœur. Et nos arrangements floraux apportent douceur et réconfort. Chaque
@@ -282,14 +279,6 @@
                 </div>
                 <div class="menu_card-content">
                     <h3 class="menu_card-content--title">Marbrerie</h3>
-                    <p class="menu_card-content--price">$165.00</p>
-                    <div class="menu_card-reviews">
-                        <i class="fas fa-star menu_card-reviews--star"></i>
-                        <i class="fas fa-star menu_card-reviews--star"></i>
-                        <i class="fas fa-star menu_card-reviews--star"></i>
-                        <i class="fas fa-star menu_card-reviews--star"></i>
-                        <i class="fas fa-star menu_card-reviews--star"></i>
-                    </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 my-4">
@@ -300,14 +289,6 @@
                 </div>
                 <div class="menu_card-content">
                     <h3 class="menu_card-content--title">Cercueils</h3>
-                    <p class="menu_card-content--price"><del>$99.00</del> $89.00</p>
-                    <div class="menu_card-reviews">
-                        <i class="fas fa-star menu_card-reviews--star"></i>
-                        <i class="fas fa-star menu_card-reviews--star"></i>
-                        <i class="fas fa-star menu_card-reviews--star"></i>
-                        <i class="fas fa-star menu_card-reviews--star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 my-4">
@@ -318,14 +299,6 @@
                 </div>
                 <div class="menu_card-content">
                     <h3 class="menu_card-content--title">Urnes</h3>
-                    <p class="menu_card-content--price">$49.00</p>
-                    <div class="menu_card-reviews">
-                        <i class="fas fa-star menu_card-reviews--star"></i>
-                        <i class="fas fa-star menu_card-reviews--star"></i>
-                        <i class="fas fa-star menu_card-reviews--star"></i>
-                        <i class="fas fa-star menu_card-reviews--star"></i>
-                        <i class="fas fa-star menu_card-reviews--star"></i>
-                    </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 my-4">
@@ -336,16 +309,11 @@
                 </div>
                 <div class="menu_card-content">
                     <h3 class="menu_card-content--title">Fleurs</h3>
-                    <p class="menu_card-content--price">$125.00 – $165.00</p>
-                    <div class="menu_card-reviews">
-                        <i class="fas fa-star menu_card-reviews--star"></i>
-                        <i class="fas fa-star menu_card-reviews--star"></i>
-                        <i class="fas fa-star menu_card-reviews--star"></i>
-                        <i class="fas fa-star menu_card-reviews--star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
                 </div>
             </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <a href="./les-produits.html" class="slider_content-link">Plus d'info</a>
         </div>
     </div>
 </section>
@@ -354,7 +322,7 @@
         <div class="menu_content">
             <!-- <p class="menu_content-header text-center">PRICES</p> -->
             <h2 class="menu_content-title text-center">Nos solutions de prévoyance obsèques</h2>
-            <p class="menu_content-p">Anticipez sereinement l'avenir avec nos solutions de prévoyance obsèques chez
+            <p class="menu_content-p text-center">Anticipez sereinement l'avenir avec nos solutions de prévoyance obsèques chez
                 Pompes Funèbres 91. Nos contrats obsèques et assurances offrent la tranquillité d'esprit à vous et à vos
                 proches. Prévoyez les détails de vos adieux selon vos souhaits, tout en allégeant le fardeau financier
                 et émotionnel de vos proches. Notre équipe dévouée vous guide à travers chaque étape, en personnalisant
@@ -362,67 +330,8 @@
                 digne et respectueux, tout en préservant vos proches des préoccupations financières. Chez Pompes
                 Funèbres 91, nous prenons soin de votre avenir et de celui de vos proches.</p>
         </div>
-        <div class="row align-items-center">
-            <div class="col-md-6">
-                <div class="my-5">
-                    <div class="d-flex justify-content-between">
-                        <h3 class="menu_card-content--title text-left text-nowrap">Funeral Home Facilities</h3>
-                        <span class="after-dots text-nowrap"></span>
-                        <p class="menu_card-content--price2 text-nowrap">$165</p>
-                    </div>
-                    <p class="menu_content-p m-t-1">We offer several halls with furniture and accessories</p>
-                </div>
-                <div class="my-5">
-                    <div class="d-flex justify-content-between">
-                        <h3 class="menu_card-content--title text-left text-nowrap">Transfer of Remains to Funeral Homes
-                        </h3>
-                        <span class="after-dots text-nowrap"></span>
-                        <p class="menu_card-content--price2 text-nowrap">$125</p>
-                    </div>
-                    <p class="menu_content-p m-t-1">Anonymous, comfortable and secure transfer</p>
-                </div>
-                <div class="my-5">
-                    <div class="d-flex justify-content-between">
-                        <h3 class="menu_card-content--title text-left text-nowrap">Automotive Equipment</h3>
-                        <span class="after-dots text-nowrap"></span>
-                        <p class="menu_card-content--price2 text-nowrap">$55.00</p>
-                    </div>
-                    <p class="menu_content-p m-t-1">Modern equipment for your families’ comfort</p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="my-5">
-                    <div class="d-flex justify-content-between">
-                        <h3 class="menu_card-content--title text-left text-nowrap">
-                            Preparation of the Body</h3>
-                        <span class="after-dots text-nowrap"></span>
-                        <p class="menu_card-content--price2 text-nowrap">$95</p>
-                    </div>
-                    <p class="menu_content-p m-t-1">We provide full set service of the bodies preparation</p>
-                </div>
-                <div class="my-5">
-                    <div class="d-flex justify-content-between">
-                        <h3 class="menu_card-content--title text-left text-nowrap">
-                            Immediate Burial
-                        </h3>
-                        <span class="after-dots text-nowrap"></span>
-                        <p class="menu_card-content--price2 text-nowrap">$1385</p>
-                    </div>
-                    <p class="menu_content-p m-t-1">In an emergency situation we are ready to help</p>
-                </div>
-                <div class="my-5">
-                    <div class="d-flex justify-content-between">
-                        <h3 class="menu_card-content--title text-left text-nowrap">
-                            Remembrance or Memorial</h3>
-                        <span class="after-dots text-nowrap"></span>
-                        <p class="menu_card-content--price2 text-nowrap">$55.00</p>
-                    </div>
-                    <p class="menu_content-p m-t-1">Beautiful ceremonies with various scenarios</p>
-                </div>
-            </div>
-        </div>
         <div class="d-flex justify-content-center">
-            <a href="" class="slider_content-link">Learn More</a>
+            <a href="./prevoyances-obseques.html" class="slider_content-link">En savoir plus</a>
         </div>
     </div>
 </section>
@@ -447,7 +356,7 @@
         <div class="menu_content">
             <!-- <p class="menu_content-header text-center">WE REMEMBER</p> -->
             <h2 class="menu_content-title text-center">Avis de décès</h2>
-            <p class="menu_content-p">À travers ces avis de décès, nous annonçons le départ de membres précieux de notre
+            <p class="menu_content-p text-center">À travers ces avis de décès, nous annonçons le départ de membres précieux de notre
                 communauté. En tant qu'agence de pompes funèbres établie dans le 91, nous reconnaissons l'importance de
                 rendre hommage à ces vies qui nous ont touchés. Notre équipe dévouée est là pour vous accompagner dans
                 la planification de services funèbres respectueux et significatifs. Chaque détail sera pris en charge
@@ -465,12 +374,6 @@
                     <h3 class="menu_card-content--title2">Sally Morrison</h3>
                     <p class="menu_card-content--p">We will be missing you a lot, and will always keep the warmest
                         memories of your smile in our hearts…</p>
-                    <div class="d-flex mt-4">
-                        <p class="menu_card-content--show">
-                            Read More
-                        </p>
-                        <span class="menu_card-content--icon"><i class="fas fa-arrow-right"></i></span>
-                    </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 my-4">
@@ -484,12 +387,6 @@
                     <p class="menu_card-content--p">
                         Here’s to the life of the great man who served his country, was a good friend and honorable man…
                     </p>
-                    <div class="d-flex mt-4">
-                        <p class="menu_card-content--show">
-                            Read More
-                        </p>
-                        <span class="menu_card-content--icon"><i class="fas fa-arrow-right"></i></span>
-                    </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 my-4">
@@ -502,17 +399,11 @@
                     <h3 class="menu_card-content--title2">Rebecca Williams</h3>
                     <p class="menu_card-content--p">
                         With the warm and loving memory, to the most amazing person in the whole world, dear Becky…</p>
-                    <div class="d-flex mt-4">
-                        <p class="menu_card-content--show">
-                            Read More
-                        </p>
-                        <span class="menu_card-content--icon"><i class="fas fa-arrow-right"></i></span>
-                    </div>
                 </div>
             </div>
         </div>
         <div class="d-flex justify-content-center mt-3">
-            <a href="" title="Info" class="menu_card-link">More Information</a>
+            <a href="./avis-de-deces.html" title="Info" class="menu_card-link">Tous les avis de décès</a>
         </div>
     </div>
 </section>
@@ -523,64 +414,61 @@
         <div class="footer_content">
             <div class="row justify-content-between">
                 <div class="col-md-3 col-sm-6 my-3">
-                    <h3 class="footer_content-title">Office</h3>
-                    <p class="footer_content-p"></p>
-                    <a href="mailto:contact@pompes-funebres.fr" title="contact@pompes-funebres.fr"
-                        class="footer_content-link underline">contact@pompes-funebres.fr</a>
+                    <p class="footer_content-title">Office</p>
+                    <p class="footer_content-p">8 Rue Vapereau, Morsang-sur-Orge - 91390 Essonne</p>
+                    <a href="mailto:contact@pompes-funebres91.fr" title="contact@pompes-funebres91.fr"
+                        class="footer_content-link underline">contact@pompes-funebres91.fr</a>
                     <a href="tel:01 02 03 04 05" title="01 02 03 04 05"
                         class="footer_content-link2">01 02 03 04 05</a>
                 </div>
 
                 <div class="col-md-3 col-sm-6 my-3">
-                    <h3 class="footer_content-title">Links</h3>
                     <a href="./urgences-deces.html"
                         class="footer_content-link "
                         title="Urgences décès">Urgences décès</a>
                     <a href="./demarches-administratives.html"
-                        class="footer_content-link " title="Démarches administratives">Démarches
+                        class="footer_content-link "
+                        title="Démarches administratives">Démarches
                         administratives</a>
                     <a href="./obseques.html"
-                        class="footer_content-link " title="Obsèques">Obsèques</a>
+                        class="footer_content-link "
+                        title="Obsèques">Obsèques</a>
                     <a href="./entretien-sepulture.html"
-                        class="footer_content-link " title="Entretien sépulture">Entretien
+                        class="footer_content-link "
+                        title="Entretien sépulture">Entretien
                         sépulture</a>
                     <a href="./les-produits.html"
-                        class="footer_content-link " title="Les produits">Les
+                        class="footer_content-link "
+                        title="Les produits">Les
                         produits</a>
                     <a href="./prevoyances-obseques.html"
-                        class="footer_content-link " title="Prévoyances obsèques">Prévoyances
+                        class="footer_content-link "
+                        title="Prévoyances obsèques">Prévoyances
                         obsèques</a>
+                </div>
+                <div class="col-md-3 col-sm-6 my-3">
                     <a href="./avis-de-deces.html"
-                        class="footer_content-link " title="Avis de décès">Avis de
+                        class="footer_content-link "
+                        title="Avis de décès">Avis de
                         décès</a>
                     <a href="" class="footer_content-link">Zones d’interventions</a>
                     <a href="./contact.html"
-                        class="footer_content-link " title="Nous contacter">Nous
+                        class="footer_content-link "
+                        title="Nous contacter">Nous
                         contacter</a>
                 </div>
                 <div class="col-md-3 col-sm-6 my-3">
-                    <h3 class="footer_content-title">Social</h3>
-                    <a href="" class="footer_content-link">Facebook</a>
-                    <a href="" class="footer_content-link">Twitter</a>
-                    <a href="" class="footer_content-link">Dribble</a>
-                    <a href="" class="footer_content-link">Instagram</a>
-                </div>
-                <div class="col-md-3 col-sm-6 my-3">
-                    <h3 class="footer_content-title">Newsletter</h3>
-                    <div class="footer_content-form">
-                        <input type="text" placeholder="&#xF0e0; &nbsp; Enter Your Email Address"
-                            class="footer_content-form--input">
-                        <a href="" title="icon" class="footer_content-form--link"><i class="fas fa-arrow-right"></i></a>
-                    </div>
-                    <div class="checkbox d-flex mt-4">
-                        <input name="condition" type="checkbox"
-                            style="height:1.5rem; width:1.5rem; vertical-align: middle;" class="check" />
-                        <span class="menu_card-content--p">
-                            &nbsp; I agree to the Privacy Policy.</span>
-                        <i class="fa fa-info-square" aria-hidden="true"></i>
-                    </div>
+                    <a href="www.facebook.com" target="_blank" class="footer_content-link">Facebook</a>
+                    <a href="www.linkedin.com" target="_blank" class="footer_content-link">LinkedIn</a>
+                    <a href="www.instagram.com" target="_blank" class="footer_content-link">Instagram</a>
                 </div>
             </div>
+        </div>
+        <div class="footer_bottom">
+            <p class="footer_bottom-p d-inline"><a href="https://www.bhinternet.fr/" target="_blank"
+                    class="footer_content-link d-inline">BHInternet - Création de site internet et référencement</a> | 2023 | <a
+                    href="./mentions-legales.html" class="footer_content-link d-inline">Mentions légales</a>
+            </p>
         </div>
     </div>
 </footer>
@@ -589,7 +477,8 @@
 
 
 <script src="./assets/js/index.js"></script>
-<script src="./assets/js/formSubmit.js"></script>   
+<script src="./assets/js/formSubmit.js"></script>
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <a title="up" href="#" id="fixphone" title="Up"><i class="fa fa-chevron-up"></i></a>
   </body>
 </html>
